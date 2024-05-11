@@ -1,0 +1,56 @@
+.weather-container{
+    padding: 2rem 2rem .5rem 2rem;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    background-color: #333333 ;
+  
+    .weather-input-container{
+      padding-bottom: 1rem;
+    
+      .weather-input{
+        padding: .5rem;
+        width: 200px;
+      }
+    }
+  
+    .weather-info__city{
+      font-size: 2rem;
+    }
+    .weather-info__temp{
+      font-size: 3rem;
+    }
+    .weather-info__icon{
+      padding: 0;
+    }
+  
+    .weather-datetime-container{
+      font-style: italic;
+      text-align: center;
+      color:rgba(249, 243, 243, .3)
+    }
+    .details-weather{
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+        justify-content: center;
+
+        .feelsLike-weather, .humidity-weather{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+
+            span{
+                font-size: 1.25rem
+            }
+        }
+    }
+    
+  }
+  
+  .class-hot{
+    border: 2px solid rgb(255, 82, 82);
+  }
+  .class-cold{
+    border: 2px solid rgb(63, 162, 255);
+  }
